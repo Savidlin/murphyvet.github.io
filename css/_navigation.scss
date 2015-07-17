@@ -55,6 +55,12 @@
 		margin-bottom: 5px;
 		.header-logo {
 			width: 180px;
+			display: inline;
+		}
+		#logoText {
+			display: inline;
+			padding-left: 50px;
+			color: $primaryColor;
 		}
 		#phoneNumber {
 			font-size: 18px;
