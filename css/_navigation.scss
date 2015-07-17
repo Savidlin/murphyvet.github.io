@@ -50,6 +50,20 @@
 			}
 		}
 	}
+	.largeHeader {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		.header-logo {
+			width: 180px;
+		}
+		#phoneNumber {
+			font-size: 18px;
+		}
+		.header-box {
+			background-color: $secondaryColor;
+			border-radius: 4px;
+		}
+	}
 }
 @media (max-width: 767px) {
 	.navigation {
