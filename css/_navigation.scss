@@ -6,7 +6,7 @@
 		.navbar-nav {
 			li {
 				a {
-					color: white;
+					color: $white;
 					font-size: 18px;
 				}
 				a:hover {
@@ -15,14 +15,14 @@
 			}
 			.open {
 				a {
-					color: black;
+					color: $black;
 				}
 				a:focus {
 					background-color: $secondaryColor;
 				}
 				a:hover {
 					background-color: $secondaryColor;
-					color: black;
+					color: $black;
 				}
 			}
 			.active {
@@ -30,20 +30,20 @@
 					background-color: $secondaryColor;
 				}
 				a:hover {
-					color: black;
+					color: $black;
 				}
 			}
 		}
 		.navbar-toggle {
 			background-color: $secondaryColor;
-			border-color: black;
+			border-color: $black;
 			margin-top: 13px;
 			.icon-bar {
-				background-color: black;
+				background-color: $black;
 			}
 		}
 		.navbar-brand {
-			color: white;
+			color: $white;
 			img {
 				width: 50px;
 				display: inline;
@@ -72,12 +72,12 @@
 			.navbar-nav {
 				li {
 					a:hover {
-						color: black;
+						color: $black;
 					}
 					a {
-						color: white;
+						color: $white;
 						.dropdown {
-							color: white;
+							color: $white;
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					.dropdown-menu {
 						li {
 							a {
-								color: white;
+								color: $white;
 							}
 						}
 					}
