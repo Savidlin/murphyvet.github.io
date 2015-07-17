@@ -37,8 +37,16 @@
 		.navbar-toggle {
 			background-color: $secondaryColor;
 			border-color: black;
+			margin-top: 13px;
 			.icon-bar {
 				background-color: black;
+			}
+		}
+		.navbar-brand {
+			color: white;
+			img {
+				width: 50px;
+				display: inline;
 			}
 		}
 	}
