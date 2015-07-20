@@ -67,6 +67,14 @@ font {
 	border-radius:10%;
 }
 
+.navbar-default {
+	border: 1px solid $wireframe-border-color;
+}
+
+.navbar-nav>li>a:hover {
+	color:#fff;
+	background-color:#000;
+}
 
 /* Carousel Properties */
 
