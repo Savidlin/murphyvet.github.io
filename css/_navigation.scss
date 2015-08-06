@@ -24,6 +24,7 @@
 		border-radius:0; 
 		background-color:$primary-color-dark;
 		border: 1px solid $wireframe-border-color;
+		.navbar-brand img {height:50px;}
 		.navbar-collapse {border-top:0}
 		.navbar-brand {padding:0 0 0 15px;}
 		.navbar-nav>li>a {color:$primary-color-text; font-weight:bold;}
